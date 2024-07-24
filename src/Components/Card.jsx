@@ -1,10 +1,9 @@
 import React from "react";
 import "./Card.css";
-// import bgimage from '../assets/images/greenbg.jpg'
-import { RiHandbagFill } from "react-icons/ri";
 import { GiStairsCake } from "react-icons/gi";
-import { IoBag } from "react-icons/io5";
 import Social from "./Social";
+import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
+import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
 
 const Card = () => {
  
@@ -16,13 +15,13 @@ const Card = () => {
           <div className="des1" style={{ display: "flex" }}>
             <p>Artist- SNOON</p>
             <span style={{}}>
-              <RiHandbagFill />
+              <BusinessCenterIcon />
             </span>
           </div>
           <div className="des2" style={{ display: "flex" }}>
             <p>Jeddah,SA</p>
             <span style={{ marginLeft:"10px" }}>
-              <IoBag />
+              <LocationOnOutlinedIcon />
             </span>
             <p style={{ marginLeft:"10px" }}>01/24</p>
             <span style={{ marginLeft:"10px" }}>
