@@ -9,11 +9,10 @@ const ProfileCard = () => {
     <>
       <div
         style={{
-          minHeight: "100vh",
+          minHeight: "130vh",
           width: "100%",
           display: "flex",
           justifyContent: "center",
-          backgroundColor: "black",
         }}
       >
         {/* <Home /> */}
