@@ -1,0 +1,72 @@
+.home{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color:#fffffffa;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    max-width: 430px;
+    width: 100%;
+    height: 130vh;
+}
+.bg{
+    position: relative;
+    min-width:90%;
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bg img{
+    width: 100%;
+    height: 60vh;
+    border-radius: 20px;
+    /* filter: brightness(80%); */
+    filter: contrast(80%);
+}
+.icons{
+    position: absolute;
+    display: flex;
+    align-items: first baseline;
+    top: 45px;
+    font-size: x-large;
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+}
+
+.child {
+    position: absolute;
+    /* bottom: 100px; */
+    z-index: 10;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 3px solid rgb(255, 255, 255);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* marginri: 100px; */
+  }
+  .child img {
+    position: absolute;
+    max-width: 160px;
+    height: 160px;
+    border-radius: 50%;
+  }
+  .imgicon {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    left: 30%;
+    top: 40%;
+    border-radius: 50%;
+    border: 3px solid rgb(255, 255, 255);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  .imgicon img {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
