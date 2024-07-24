@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 435px;
+    width: 100%;
     /* border: 1px solid black;  */
     flex-wrap: wrap;
     max-height: 40vh;
@@ -10,18 +10,23 @@
 }
 .socialitems{
     /* border: 1px solid black; */
-    width: 380px;
+    width: 90%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+}
+.socialicons{
+ width: 33%;
 }
 .socialicons a{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 0px 30px;
+    /* margin: 0px 30px; */
+    /* width: 33%; */
+    /* border: 1px solid saddlebrown; */
 }
 .socialicons a >img{
     font-size: xx-large;
