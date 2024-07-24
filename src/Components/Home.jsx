@@ -1,6 +1,6 @@
 import React from 'react'
 import './Home.css'
-import image from '../assets/images/greenbg.jpg'
+import image from '../assets/images/bb.jpg'
 import { SiGooglemessages } from "react-icons/si";
 import { IoIosArrowForward } from "react-icons/io";
 import profileimage from "../assets/images/m3.png";
