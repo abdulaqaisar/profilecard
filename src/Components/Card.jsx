@@ -29,7 +29,7 @@ const Card = () => {
               <GiStairsCake />
             </span>
           </div>
-          <p style={{fontSize:"16px", fontWeight:"500" }}>Owner of studio NOON here is some about my work</p>
+          <p style={{fontSize:"14px", fontWeight:"500" }}>Owner of studio NOON here is some about my work</p>
         </div>
         <br />
         <Social/>
