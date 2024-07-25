@@ -16,7 +16,8 @@ const ProfileCard = () => {
         }}
       >
         {/* <Home /> */}
-        <Back/>
+
+       <Back/>
       </div>
     </>
   );

@@ -62,38 +62,38 @@ const Social = () => {
           link: "https://music.apple.com/us/browse",
           name: "Snapchat",
         },
-        {
-          id: "6",
-          img:  sound,
-          link: "",
-          name: "Sound",
-        },
-        {
-          id: "7",
-          img:  instagram ,
-          link: "",
-          name: "Instagram",
-        },
-        {
-          id: "8",
-          img: snapchat,
-          link: "",
-          name: "Snapchat",
-        }
-        ,
-        {
-          id: "8",
-          img: maps,
-          link: "",
-          name: "Music",
-        }
-        ,
-        {
-          id: "8",
-          img: maps,
-          link: "",
-          name: "Music",
-        }
+        // {
+        //   id: "6",
+        //   img:  sound,
+        //   link: "",
+        //   name: "Sound",
+        // },
+        // {
+        //   id: "7",
+        //   img:  instagram ,
+        //   link: "",
+        //   name: "Instagram",
+        // },
+        // {
+        //   id: "8",
+        //   img: snapchat,
+        //   link: "",
+        //   name: "Snapchat",
+        // }
+        // ,
+        // {
+        //   id: "8",
+        //   img: maps,
+        //   link: "",
+        //   name: "Music",
+        // }
+        // ,
+        // {
+        //   id: "8",
+        //   img: maps,
+        //   link: "",
+        //   name: "Music",
+        // }
       ];
 
   return (
